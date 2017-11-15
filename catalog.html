@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>catalog</title>
+	<link rel="stylesheet" href="css/transition.css">
+	<link rel="stylesheet" href="css/dropdown.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/input.css">
+	<link rel="stylesheet" href="css/hambyrger.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="http://resources/demos/style.css">
+	<link rel="stylesheet" href="css/scroll.css">
+	<link rel="stylesheet" href="css/jquery.scrollbar.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="catalog-black-bg black_bg">
+
+
+<header class="header">
+	<div class="header_first">
+		<div class="container">
+			<button class="header_first__mob-btn  cmn-toggle-switch cmn-toggle-switch__htx" type="button"><span></span>
+			</button>
+			<ul class="header_first__nav">
+				<li><a class="header_nav__link" href="about.html">О компании</a></li>
+				<li><a class="header_nav__link" href="action.html">Акции</a></li>
+				<li><a class="header_nav__link" href="price.html">Прайс</a></li>
+				<li><a class="header_nav__link" href="intresting.html">Интересно</a></li>
+				<li><a class="header_nav__link" href="contact.html">Контакты</a></li>
+				<li><a class="header_tel header_tel__show" href="tel:+73472736080">+7 (347) 273 60 80</a></li>
+			</ul>
+			<a class="header_logo-mob" href="index.html"><img class="header_first__logo" src="img/header-logo.png"
+			                                                  alt=""></a>
+			<div class="header_flex">
+				<b class="header_tel header_tel__hide">+7 (347) 273 60 80 </b>
+				<form class="header_search">
+					<input placeholder="Поиск">
+					<button class="header_search__loupe" type="button"><i class="loupe-icon"></i></button>
+				</form>
+				<div class="header_basket">
+					<a class="header_basket__btn" href="basket.html"><i class="basket-icon"><span
+							class="header_basket__number">2</span></i></a>
+					<div class="header_basket__popup">
+						<h3 class="header_basket__title">В корзине 2 товара</h3>
+						<div class="basket_product__item">
+							<div class="basket_img-title">
+								<img class="basket_item__img" src="img/change.jpg" alt="">
+								<h3 class="basket_item__title">Мраморизованный известняк</h3>
+							</div>
+
+							<div class="basket_counter-price-cancel">
+
+								<div class="basket_item__price">
+									<div class="basket_price__before">10 400 Р.</div>
+									<div class="basket_price__after">5 200 Р.</div>
+								</div>
+								<button class="basket_cancel" type="button"></button>
+							</div>
+						</div>
+
+						<div class="basket_product__item">
+							<div class="basket_img-title">
+								<img class="basket_item__img" src="img/change.jpg" alt="">
+								<h3 class="basket_item__title">Мраморизованный известняк</h3>
+							</div>
+
+							<div class="basket_counter-price-cancel">
+
+								<div class="basket_item__price">
+									<div class="basket_price__before">10 400 Р.</div>
+									<div class="basket_price__after">5 200 Р.</div>
+								</div>
+								<button class="basket_cancel" type="button"></button>
+							</div>
+
+						</div>
+						<div class="basket_result">
+							<span class="basket_result__text">Общая сумма:</span>
+							<div class="basket_result__price-cancel">
+								<div class="basket_result__price">10 400 Р.</div>
+							</div>
+							<button class="header_basket__order-btn btn" type="button">Оформить заказ</button>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header_second">
+		<div class="container">
+			<a href="index.html"><img class="header_second__img" src="img/logo-header.png" alt="Лого Каменный Двор"></a>
+			<div class="header_second__nav">
+				<a class="header_nav__link stone" href="catalog-preview.html">Натуральный камень</a>
+				<a class="header_nav__link clinker" href="catalog-preview.html">Клинкер</a>
+				<a class="header_nav__link architecture" href="catalog-preview.html">Архитектурные изделия</a>
+				<a class="header_nav__link sink" href="catalog-preview.html">Мойка из камня</a>
+				<div class="second_nav__hidden">
+					<a class="header_nav__link sink" href="catalog-preview.html">Мойка из камня</a>
+					<a class="header_nav__link panel" href="catalog-preview.html">Панно</a>
+					<a class="header_nav__link fireplace" href="catalog-preview.html">Камины</a>
+					<a class="header_nav__link  souvenirs" href="catalog-preview.html">Сувениры</a>
+					<a class="header_nav__link  windowsill" href="catalog-preview.html">Столешницы и подокойники</a>
+					<a class="header_nav__link  glue" href="catalog-preview.html">Пропитка, затирка, клей</a>
+					<a class="header_nav__link  beton" href="catalog-preview.html">Бетонная брусчатка</a>
+					<a class="header_nav__link  false-stone" href="catalog-preview.html">Искуственный камень</a>
+					<a class="header_nav__link  gabion" href="catalog-preview.html">Габионы</a>
+				</div>
+			</div>
+			<button class="header_more__btn cmn-toggle-switch cmn-toggle-switch__htx" type="button"><span></span>Посмотреть
+				все товары
+			</button>
+		</div>
+	</div>
+
+</header>
+
+
+<div class="discount_banner action-low discount_banner-above">
+	<div class="discount_banner-catalog container">
+		<div class="discount_banner__left">
+			<h2 class="banner__title">Акция на клинкер</h2>
+			<p class="banner__text">Сайт рыбатекст поможет дизайнеру,
+				верстальщику, вебмастеру сгенерировать
+				несколько абзацев более менее.</p>
+		</div>
+		<div class="discount_banner__right">
+			<div><span class="banner_number"><span class="banner_number__number">50%</span><span class="banner_number__before">до</span></span></div>
+			<img class="banner_img" src="img/change.jpg" alt="">
+		</div>
+	</div>
+</div>
+
+
+<div class="crumbs container crumbs-banner-above">
+	<a class="crumbs_index" href="index.html">Главная</a><span class="crumbs_arrow">></span><a class="crumbs_index"
+	                                                                                           href="catalog-preview.html">Каталог</a><span
+		class="crumbs_arrow">></span><a class="crumbs_index" href="catalog-preview.html">Натуральный камень</a><span
+		class="crumbs_arrow">></span><a class="crumbs_about crumbs_current" href="">Плитняк</a>
+</div>
+
+<div class="catalog_title__flex container">
+	<h2 class="section_title">Натуральный камень</h2>
+	<button class="btn" type="button">Скачать прайс</button>
+</div>
+
+<div class="catalog container">
+	<div class="catalog_section">
+		<div class="catalog_left">
+			<div class="catalog_filter__first-flex">
+
+				<div class="ui inline dropdown">
+					<div class="text">
+						по популярности
+					</div>
+					<i class="dropdown-icon"></i>
+					<div class="menu">
+						<div class="item">
+							по популярности
+						</div>
+						<div class="item">
+							по алфавиту
+						</div>
+					</div>
+				</div>
+
+				<h3 class="filter_title">Фильтер <span class="filter_title__arrow"></span></h3>
+
+			</div>
+
+
+			<div class="catalog_accordion">
+
+				<div class="divider"></div>
+
+				<div class="accordion">
+					<p class="accordion_preview">
+						<span class="accordion_preview__arrow"></span>
+						Цена(руб): <br>
+						от <span class="accordion_preview__value accordion_preview__value1">14 000</span>
+						до <span class="accordion_preview__value accordion_preview__value2">17 000</span>
+					</p>
+					<div class="accordion_content accordion_content accordion_content__price">
+						<div class="input-range">
+
+								<label for="amount">от:</label>
+								<label class="label-amount2" for="amount2">до:</label>
+							<div class="input-range-input">
+								<input type="text" id="amount">
+								<input type="text" id="amount2">
+							</div>
+
+
+							<div id="slider-range"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="accordion">
+					<p class="accordion_preview">
+						<span class="accordion_preview__arrow"></span>
+						Цвет:
+						<span class="accordion_preview__value">Желтый</span>
+						<span class="accordion_preview__value">Красный</span>
+					</p>
+					<div class="accordion_content wrapper scrollbar-dynamic">
+
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Желтый</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Красный</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Бордо</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Бежевый</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Желтый</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Красный</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Бордо</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Бежевый</span></label>
+
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="accordion">
+					<p class="accordion_preview">
+						<span class="accordion_preview__arrow"></span>
+						Размер:
+						<span class="accordion_preview__value">15x30</span>
+					</p>
+					<div class="accordion_content wrapper scrollbar-dynamic">
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">5XL</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">5x10</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">10x10</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">5XL</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">5x10</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">10x10</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">5x10</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">10x20</span></label>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="accordion">
+					<p class="accordion_preview">
+						<span class="accordion_preview__arrow"></span>
+						Порода:
+						<span class="accordion_preview__value">Траверин</span>
+					</p>
+					<div class="accordion_content wrapper scrollbar-dynamic">
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Кварцит</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Доломит</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Сланец</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Мрамор</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Известняк</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Кварцит</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Доломит</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Сланец</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Мрамор</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Известняк</span></label>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="accordion">
+					<p class="accordion_preview">
+						<span class="accordion_preview__arrow"></span>
+						Поверхность:
+						<span class="accordion_preview__value">Колотая(рваная)</span>
+					</p>
+					<div class="accordion_content wrapper scrollbar-dynamic">
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Натуральная</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Колотая(рваная)</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Полированная</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Состаренная</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Шлифованная</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Натуральная</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Колотая(рваная)</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Полированная</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Состаренная</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Шлифованная</span></label>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="accordion">
+					<p class="accordion_preview">
+						<span class="accordion_preview__arrow"></span>
+						Применение:
+						<span class="accordion_preview__value">Интерьер</span>
+					</p>
+					<div class="accordion_content wrapper scrollbar-dynamic">
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Интерьер</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Фасад, цоколь</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Пол</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Камин</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Баня</span></label>
+						<label><input type="checkbox"><span
+								class="border-green accordion-checkbox">Интерьер</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Фасад, цоколь</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Пол</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Камин</span></label>
+						<label><input type="checkbox"><span class="border-green accordion-checkbox">Баня</span></label>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="filter_bottom-flex">
+					<button class="filter_bottom__btn-left border-green border-active" type="button">В наличии</button>
+					<button class="filter_bottom__btn-right border-green" type="button">Под заказ</button>
+				</div>
+				<div class="divider"></div>
+				<button class="filter_reset" type="reset">Удалить все</button>
+				<button class="btn filter_apply">Применить</button>
+			</div>
+
+
+		</div>
+
+
+		<div class="catalog_right">
+
+			<div class="catalog_right__first">
+				<p class="catalog_found">Найдено товаров: <span class="catalog_found__number">40</span></p>
+				<div class="catalog_right__first-right">
+					<div class="catalog_select">
+						<span class="select_preview">Сортировать:</span>
+						<div class="ui inline dropdown">
+							<div class="text">
+								По популярности
+							</div>
+							<i class="dropdown-icon"></i>
+							<div class="menu">
+								<div class="item">
+									Цена по популярности
+								</div>
+								<div class="item">
+									Цена по возрастанию
+								</div>
+								<div class="item">
+									Цена по убыванию
+								</div>
+								<div class="item">
+									Новинка
+								</div>
+								<div class="item">
+									Акция
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="catalog_show">
+						<span class="select_preview">Показать по:</span>
+						<div class="ui inline dropdown">
+							<div class="text">
+								14
+							</div>
+							<i class="dropdown-icon"></i>
+							<div class="menu">
+								<div class="item">
+									30
+								</div>
+								<div class="item">
+									50
+								</div>
+								<div class="item">
+									Все
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="product">
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<div class="product_promo__marks">
+								<span class="product_promo__action-mark">Акция!</span>
+								<span class="product_promo__popular-mark">Популярно!</span>
+								<span class="product_promo__new-mark">Новинка!</span>
+							</div>
+							<img class="product_promo__img" src="img/change.jpg" alt="">
+						</div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+							"кора дуба" с песком евро Кирпич лицевой BRAER
+							Бавком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<div class="product_promo__marks">
+								<span class="product_promo__popular-mark">Популярно!</span>
+							</div>
+							<img class="product_promo__img" src="img/change.jpg" alt="">
+						</div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<div class="product_promo__marks">
+								<span class="product_promo__action-mark">Акция!</span>
+								<span class="product_promo__new-mark">Новинка!</span>
+							</div>
+							<img class="product_promo__img" src="img/change.jpg" alt="">
+						</div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<div class="product_promo__marks">
+								<span class="product_promo__new-mark">Новинка!</span>
+							</div>
+							<img class="product_promo__img" src="img/change.jpg" alt="">
+						</div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<img class="product_promo__img" src="img/change.jpg" alt=""></div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<img class="product_promo__img" src="img/change.jpg" alt=""></div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<img class="product_promo__img" src="img/change.jpg" alt=""></div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<img class="product_promo__img" src="img/change.jpg" alt=""></div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="product_item">
+					<div>
+						<div class="product_promo">
+							<img class="product_promo__img" src="img/change.jpg" alt=""></div>
+						<p class="product_dscr">Кирпич лицевой BRAER
+							Баварская кладка
+							"кора дуба" с песком евро</p>
+					</div>
+					<div>
+						<span class="product_price__before">19.80 Р/шт.</span>
+						<span class="product_price_after">10.90 Р./шт.</span>
+						<div class="product_btn-block">
+							<button class="product_btn btn" type="button">В корзину</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pagination">
+				<a class="pagination_item pagination_item__unactive pagination_arrow-left" href=""></a>
+				<a class="pagination_item pagination_item__current" href="">1</a>
+				<a class="pagination_item" href="">2</a>
+				<a class="pagination_item" href="">3</a>
+				<a class="pagination_item pagination_arrow-right" href=""></a>
+			</div>
+
+
+		</div>
+	</div>
+	<h2 class="section_title additional_title">Дополнительная информация</h2>
+	<p class="additional_text">
+		Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+		осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+		условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется
+		абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более
+		привлекательным и живым для визуально-слухового восприятия.
+	<p class="additional_text">
+		Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+		осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+		условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется
+		абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более
+		привлекательным и живым для визуально-слухового восприятия.
+	</p>
+	<p class="additional_text">
+		Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+		осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+		условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется
+		абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более
+		привлекательным и живым для визуально-слухового восприятия.
+	</p>
+
+</div>
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer_soc">
+			<a href="index.html"><img class="footer_logo" src="img/logo-footer.png" alt=""></a>
+			<div class="footer_soc__flex">
+				<a class="footer_soc__vk" href=""></a>
+				<a class="footer_soc__inst" href=""></a>
+				<a class="footer_soc__fb" href=""></a>
+			</div>
+		</div>
+		<div class="footer_three__flex">
+			<div class="footer_second__nav">
+				<h2 class="second_nav__title">Каталог</h2>
+				<ul>
+					<li><a href="catalog-preview.html">Натуральный камень</a></li>
+					<li><a href="catalog-preview.html">Клинкер</a></li>
+					<li><a href="catalog-preview.html">Архитектурные изделия</a></li>
+					<li><a href="catalog-preview.html">Мойка из камня</a></li>
+					<li><a href="catalog-preview.html">Панно</a></li>
+					<li><a href="catalog-preview.html">Камины</a></li>
+					<li><a href="catalog-preview.html">Сувениры</a></li>
+					<li><a href="catalog-preview.html">Столешницы и подокойники</a></li>
+					<li><a href="catalog-preview.html">Пропитка, затирка, клей</a></li>
+				</ul>
+			</div>
+			<div class="footer_first__nav">
+				<ul>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="action.html">Акции</a></li>
+					<li><a href="price.html">Прайс</a></li>
+					<li><a href="intresting.html">Интересно</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="footer_contact">
+				<div class="footer_contact__tel">
+					<b>+7 (347) 273 60 80 </b>
+					<b>+7 (347) 273 52 68</b>
+				</div>
+				<ul class="footer_contact__location">
+					<li>Выставочный салон,<br>
+						г. Уфа, ул. Новомостовая, 8
+					</li>
+					<li>Склад, деревня Карпово,<br>
+						ул. Ландшафтная, 5
+					</li>
+					<li>Склад, ост. Металлобаза</li>
+					<li>Выставочная экспозиция<br>
+						в ТВК «Радуга-Экспо»
+					</li>
+					<li>Выставочная экспозиция<br>
+						в ТВК «ВДНХ-Экспо»
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div class="popup_overlay"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jquery.scrollbar.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="js/transition.js"></script>
+<script src="js/dropdown.js"></script>
+<script src="js/hambyrger.js"></script>
+<script src="js/form.js"></script>
+<script src="js/index.js"></script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>
